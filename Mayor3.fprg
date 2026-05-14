@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="mayor de 3 numeros"/>
+        <attribute name="authors" value="CAMILO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-15 07:46:54 p. m."/>
+        <attribute name="created" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTE1OzA3OjI3OjM3IHAuIG0uOzI5NTg="/>
+        <attribute name="edited" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTE1OzA3OjQ2OjU0IHAuIG0uOzE7MzA2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3" type="Integer" array="False" size=""/>
+            <input variable="N1"/>
+            <input variable="N2"/>
+            <input variable="N3"/>
+            <if expression="N1&gt;=N2">
+                <then>
+                    <if expression="N1&gt;N3">
+                        <then>
+                            <output expression="N1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="N3" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="N2&gt;=N3">
+                        <then>
+                            <output expression="N2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="N3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

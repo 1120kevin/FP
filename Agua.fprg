@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ejercicio venta de agua"/>
+        <attribute name="authors" value="CAMILO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-15 08:56:50 p. m."/>
+        <attribute name="created" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTE1OzA3OjQ3OjAwIHAuIG0uOzI5NTA="/>
+        <attribute name="edited" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTE1OzA4OjU2OjUwIHAuIG0uOzE7MzA2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V, A, L, H, ValorM" type="Integer" array="False" size=""/>
+            <assign variable="ValorM" expression="50000"/>
+            <input variable="A"/>
+            <input variable="L"/>
+            <input variable="H"/>
+            <assign variable="V" expression="(A*L*H)"/>
+            <input variable="ValorM"/>
+            <assign variable="V" expression="(A*L*H)*ValorM"/>
+            <output expression="V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="area triangulo"/>
+        <attribute name="authors" value="CAMILO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-15 09:13:49 p. m."/>
+        <attribute name="created" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTE1OzA4OjU2OjU3IHAuIG0uOzI5NjM="/>
+        <attribute name="edited" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTE1OzA5OjEzOjQ5IHAuIG0uOzE7MzA2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, Area" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <assign variable="Area" expression="(B*C)+(A-C)*(B)/2"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

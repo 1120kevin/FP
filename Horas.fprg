@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="HORAS EXTRAS"/>
+        <attribute name="authors" value="CAMILO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-22 06:03:31 p. m."/>
+        <attribute name="created" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTIyOzA1OjUxOjM4IHAuIG0uOzI5NTI="/>
+        <attribute name="edited" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA0LTIyOzA2OjAzOjMxIHAuIG0uOzE7MzA1MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="H, P, SM" type="Integer" array="False" size=""/>
+            <assign variable="P" expression="8.000"/>
+            <input variable="H"/>
+            <input variable="SM"/>
+            <assign variable="SM" expression="H*P"/>
+            <output expression="SM" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

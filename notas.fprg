@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="HALLAR EL PROMEDIO DE NOTAS"/>
+        <attribute name="authors" value="CAMILO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-19 06:18:59 p. m."/>
+        <attribute name="created" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA1LTE5OzA1OjU1OjI0IHAuIG0uOzI5NTg="/>
+        <attribute name="edited" value="Q0FNSUxPO0RFU0tUT1AtVTc4S0lDMTsyMDI2LTA1LTE5OzA2OjE4OjU5IHAuIG0uOzE7MzA3NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <assign variable="A" expression="1"/>
+            <declare name="Promedio" type="Real" array="False" size=""/>
+            <declare name="Sumatoria" type="Integer" array="False" size=""/>
+            <assign variable="Sumatoria" expression="0"/>
+            <declare name="Numeroingresado" type="Integer" array="False" size=""/>
+            <while expression="A&lt;= 5">
+                <do expression="Numeroingresado &lt;1">
+                    <output expression="&quot;ingrese el&quot; &amp; a &amp; &quot;numero&quot;" newline="True"/>
+                    <input variable="Numeroingresado"/>
+                </do>
+                <assign variable="Sumatoria" expression="Sumatoria + Numeroingresado"/>
+                <assign variable="A" expression="A + 1"/>
+            </while>
+            <assign variable="Promedio" expression="Sumatoria / (A-1)"/>
+            <output expression="&quot;el Promedio es&quot;&amp; Promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
